@@ -49,14 +49,14 @@ body {
 .btn-telegram { background: var(--Black); color: var(--White); }
 .btn-resume { background: var(--Color); color: var(--Black); }
 
-.icon-black, { 
+.icon-black { 
   width: 24px; 
   height: 24px; 
   background: transparent !important; /* Принудительно убираем фон */
 }
 
 .icon-white { 
-  filter: invert(1);
+  
   width: 24px; 
   height: 24px; 
   background: transparent !important; /* Принудительно убираем фон */
