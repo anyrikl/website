@@ -49,7 +49,7 @@ body {
 .btn-telegram { background: var(--Black); color: var(--White); }
 .btn-resume { background: var(--Color); color: var(--Black); }
 
-.icon-black, .icon-white { width: 12px; height: 12px; border-radius: 2px; }
+.icon-black, .icon-white { width: 24px; height: 24px; }
 .icon-black { background: var(--Black); }
 .icon-white { background: var(--White); }
 
