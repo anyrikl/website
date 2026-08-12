@@ -50,8 +50,6 @@ body {
 .btn-resume { background: var(--Color); color: var(--Black); }
 
 .icon-black, .icon-white { width: 24px; height: 24px; }
-.icon-black { background: var(--Black); }
-.icon-white { background: var(--White); }
 
 /* --- ГЕРОЙ --- */
 .hero-section { padding: 40px 50px 80px; }
