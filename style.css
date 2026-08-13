@@ -156,6 +156,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  pointer-events: none;
 }
 
 .footer-concepts { display: flex; gap: 20px; }
