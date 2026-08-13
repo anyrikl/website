@@ -56,10 +56,10 @@ body {
 }
 
 .icon-white { 
-  
   width: 24px; 
   height: 24px; 
   background: transparent !important; /* Принудительно убираем фон */
+  filter: invert(1);
 }
 
 /* --- ГЕРОЙ --- */
