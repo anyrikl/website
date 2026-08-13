@@ -113,8 +113,6 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   padding: 24px;
-  outline: 1px solid var(--Stroke);
-  outline-offset: -1px;
 }
 
 .card-blue { background: #E1F5EB; }
