@@ -45,6 +45,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
 }
 .btn-telegram { background: var(--Black); color: var(--White); }
 .btn-resume { background: var(--Color); color: var(--Black); }
