@@ -64,7 +64,7 @@ body {
 }
 
 /* --- ГЕРОЙ --- */
-.hero-section { padding: 40px 50px 80px; }
+.hero-section { padding: 80px 50px 120px; }
 .hero-title {
   max-width: 700px;
   margin: 0;
@@ -78,7 +78,7 @@ body {
 .experience-block {
   display: flex;
   gap: 20px;
-  padding: 0 50px 80px;
+  padding: 0 50px 120px;
 }
 
 .experience-desc {
