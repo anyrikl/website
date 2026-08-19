@@ -210,7 +210,7 @@ body {
     gap: 40px;
     margin-top: 40px;
   }
-  .footer-concepts { flex-direction: column; min-height: 160px; }
+  .footer-concepts { flex-direction: column; min-height: 200px; }
   .footer-copyright { 
     flex-direction: column;
     align-items: center; 
