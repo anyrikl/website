@@ -192,12 +192,17 @@ body {
     gap: 24px;
   }
   
-  /* Меняем порядок кнопок на мобилке, как в твоем макете */
+  /* Меняем порядок кнопок на мобилке */
   .header-buttons {
     width: 100%;
     flex-direction: column;
+    gap: 8px;
   }
-  .btn { justify-content: space-between; width: 100%; box-sizing: border-box; }
+  .btn { 
+    justify-content: space-between; 
+    width: 100%; 
+    box-sizing: border-box; 
+  }
 
   .hero-section { padding: 0 24px 40px; }
   .hero-title { font-size: 24px; }
