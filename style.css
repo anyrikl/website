@@ -213,7 +213,7 @@ body {
 
   .footer-concepts { 
     flex-direction: column; 
-    min-height: 200px;
+    height: 200px;
     border-radius: 24px
   }
 
