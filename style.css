@@ -204,7 +204,7 @@ body {
   .company-text { font-size: 20px; }
 
   .cards-wrapper { flex-direction: column; }
-  .project-card { min-height: 240px; }
+  .project-card { min-height: 252px; }
 
   .card-title { font-size: 20px; }
   .card-subtitle { font-size: 16px; }
