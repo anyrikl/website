@@ -53,7 +53,7 @@ body {
 .icon-white { width: 24px; height: 24px; background: transparent !important; filter: invert(1); }
 
 /* --- ГЕРОЙ --- */
-.hero-section { padding: 120px 50px 0; } /* ← сверху 120, по бокам 50, снизу 0 */
+.hero-section { padding: 132px 50px 0; } /* ← сверху 132, по бокам 50, снизу 0 */
 .hero-title {
   max-width: 700px;
   margin: 0;
@@ -67,7 +67,15 @@ body {
 .experience-block {
   display: flex;
   gap: 20px;
-  padding: 120px 50px 0; /* ← сверху 120, по бокам 50, снизу 0 */
+  padding: 0px 50px; /* ← сверху 0, по бокам 50, снизу 0 */
+}
+
+.experience-first {
+  padding: 132px; /* ← сверху 132 */
+}
+
+.experience-second {
+  padding: 60px; /* ← сверху 60 */
 }
 
 .experience-desc {
@@ -143,7 +151,7 @@ body {
   flex-direction: column;
   gap: 50px;
   pointer-events: none;
-  margin-top: 120px; /* ← ОТСТУП ОТ ОПЫТА К ФУТЕРУ */
+  margin-top: 132px; /* ← ОТСТУП ОТ ОПЫТА К ФУТЕРУ */
 }
 
 .footer-concepts { display: flex; gap: 20px; }
@@ -165,7 +173,7 @@ body {
   justify-content: space-between;
   font-size: 18px;
   font-weight: 600;
-  padding: 120px 50px 50px; /* ← сверху 120, по бокам 50, снизу 50 */
+  padding: 132px 50px 50px; /* ← сверху 132, по бокам 50, снизу 50 */
 }
 
 /* --- МОБИЛЬНАЯ ВЕРСИЯ --- */
