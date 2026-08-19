@@ -152,7 +152,7 @@ body {
 /* --- ФУТЕР --- */
 .footer-section {
   background: var(--Color);
-  border-radius: 40px 40px 0 0;
+  border-radius: 40px;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -234,6 +234,12 @@ body {
     padding: 24px;
     gap: 40px;
   }
-  .footer-concepts { flex-direction: column; }
-  .footer-copyright { flex-direction: column; align-items: center; gap: 12px; }
+  .footer-concepts { 
+    flex-direction: column; 
+  }
+  .footer-copyright { 
+    flex-direction: column;
+    align-items: center; 
+    gap: 12px; 
+  }
 }
