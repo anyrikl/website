@@ -235,7 +235,8 @@ body {
     gap: 40px;
   }
   .footer-concepts { 
-    flex-direction: column; 
+    flex-direction: column;
+    height: 160px;
   }
   .footer-copyright { 
     flex-direction: column;
