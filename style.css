@@ -236,7 +236,7 @@ body {
   }
   .footer-concepts { 
     flex-direction: column;
-    height: 160px;
+    min-height: 160px;
   }
   .footer-copyright { 
     flex-direction: column;
