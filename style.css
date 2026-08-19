@@ -222,8 +222,7 @@ body {
   }
 
   .concept-card {
-  flex: 1;
-  height: 240px;
+  height: 340px;
   border-radius: 24px;
 }
 
