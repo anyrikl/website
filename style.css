@@ -149,7 +149,7 @@ body {
 .footer-concepts { display: flex; gap: 20px; }
 .concept-card {
   flex: 1;
-  min-height: 200px;
+  min-height: 160px;
   background: var(--White);
   border-radius: 40px;
   position: relative;
@@ -222,7 +222,7 @@ body {
   }
 
   .concept-card {
-  height: 100px;
+  height: 80px;
   border-radius: 24px;
 }
 
