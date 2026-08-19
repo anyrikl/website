@@ -10,15 +10,10 @@
   --Color: #F8F8F8;
   font-family: 'Wix Madefor Display', sans-serif;
 
-  /* ========== ОСНОВНЫЕ ОТСТУПЫ СТРАНИЦЫ ========== */
-  --padding-side: 50px;        /* Боковые отступы (десктоп) */
-  --padding-top: 30px;         /* Отступ сверху */
-  --padding-bottom: 0px;       /* Отступ снизу (у копирайта) */
-  
-  --gap-between-blocks: 80px;  /* Расстояние между всеми блоками */
-
-  /* ========== ВНУТРЕННИЕ ОТСТУПЫ БЛОКОВ ========== */
-  --padding-block: 50px;       /* Внутренние отступы для футера и др. */
+  /* ========== РЕАЛЬНЫЕ ОТСТУПЫ ========== */
+  --side-padding: 50px;      /* Боковые отступы (десктоп) */
+  --block-gap: 80px;         /* Расстояние между блоками */
+  --footer-padding: 50px;    /* Внутренние отступы футера */
 
   /* ========== МЕЛКИЕ ОТСТУПЫ ========== */
   --space-xs: 8px;
@@ -33,7 +28,6 @@ body {
   background-color: var(--White);
 }
 
-/* Базовый контейнер */
 .portfolio-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -44,17 +38,17 @@ body {
 }
 
 /* ============================================
-   ОСНОВНОЙ КОНТЕЙНЕР-ОБЁРТКА ДЛЯ ВСЕГО КОНТЕНТА
+   ОБЁРТКА С РЕАЛЬНЫМИ ОТСТУПАМИ
    ============================================ */
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-between-blocks);
-  padding: var(--padding-top) var(--padding-side) var(--padding-bottom);
+  gap: var(--block-gap);          /* ← РАССТОЯНИЕ МЕЖДУ БЛОКАМИ */
+  padding: 30px var(--side-padding) 0; /* ← БОКОВЫЕ ОТСТУПЫ */
 }
 
 /* ============================================
-   ХЕДЕР
+   ОСТАЛЬНЫЕ БЛОКИ (все отступы убраны)
    ============================================ */
 .header {
   display: flex;
@@ -130,9 +124,6 @@ body {
   filter: invert(1);
 }
 
-/* ============================================
-   ГЛАВНЫЙ ЗАГОЛОВОК
-   ============================================ */
 .hero-section {
   padding: 0;
   margin: 0;
@@ -147,9 +138,6 @@ body {
   line-height: 1.4;
 }
 
-/* ============================================
-   ОПЫТ
-   ============================================ */
 .experience-block {
   display: flex;
   gap: var(--space-md);
@@ -210,9 +198,6 @@ body {
   gap: var(--space-md);
 }
 
-/* ============================================
-   КАРТОЧКИ ПРОЕКТОВ
-   ============================================ */
 .project-card {
   flex: 1;
   min-height: 340px;
@@ -283,13 +268,10 @@ body {
   opacity: 1;
 }
 
-/* ============================================
-   ФУТЕР
-   ============================================ */
 .footer-section {
   background: var(--Color);
   border-radius: 40px;
-  padding: var(--padding-block) var(--padding-side); /* ← Боковые отступы добавлены */
+  padding: var(--footer-padding);
   display: flex;
   flex-direction: column;
   gap: var(--space-xl);
@@ -320,27 +302,23 @@ body {
   object-fit: cover;
 }
 
-/* ============================================
-   КОПИРАЙТ (ВНЕ ОСНОВНОЙ ОБЁРТКИ)
-   ============================================ */
 .footer-copyright {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
   font-weight: 600;
-  padding: var(--gap-between-blocks) var(--padding-side) var(--padding-block);
+  padding: var(--block-gap) var(--side-padding) var(--footer-padding);
   margin: 0;
 }
 
 /* ============================================
-   АДАПТИВ (МОБИЛЬНАЯ ВЕРСИЯ)
+   МОБИЛЬНАЯ ВЕРСИЯ
    ============================================ */
 @media (max-width: 768px) {
   :root {
-    --padding-side: 24px;
-    --padding-top: 24px;
-    --gap-between-blocks: 40px;
-    --padding-block: 24px;
+    --side-padding: 24px;
+    --block-gap: 40px;
+    --footer-padding: 24px;
     --space-md: 16px;
     --space-lg: 16px;
     --space-xl: 24px;
@@ -417,6 +395,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: var(--space-sm);
-    padding: var(--gap-between-blocks) var(--padding-side) var(--padding-block);
+    padding: var(--block-gap) var(--side-padding) var(--footer-padding);
   }
 }
